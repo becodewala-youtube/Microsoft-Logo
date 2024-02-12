@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin:200px;
+    height: 210px;
+    width: 210px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.square {
+    padding: 20px;
+}
+.square:first-child{
+    background-color: #e64c20;
+}
+.square:nth-child(2){
+    background-color: #79b100;
+}
+.square:nth-child(3){
+    background-color: #009ce3;
+}
+.square:last-child{
+    background-color: #f2b000;
+}
